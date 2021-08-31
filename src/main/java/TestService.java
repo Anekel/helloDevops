@@ -1,11 +1,11 @@
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 
-@Path("hello")
+@Path("test")
 public class TestService {
 
     @GET
-    public String getHello() {
+    public String getTest() {
         return "Hello there";
     }
 
