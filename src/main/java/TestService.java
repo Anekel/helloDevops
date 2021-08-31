@@ -6,7 +6,7 @@ public class TestService {
 
     @GET
     public String getTest() {
-        return "Hello there";
+        return "Hello world";
     }
 
 }
